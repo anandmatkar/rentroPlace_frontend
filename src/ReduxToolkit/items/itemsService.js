@@ -43,7 +43,6 @@ const getAllItems = async () => {
 // get category list for user
 const getCategoryListUser = async () => {
   try {
-    let config = getAuthenticationToken();
     const response = await axios.get(`${API_URL}categoryListsForUser`);
     return response;
   } catch (error) {

@@ -11,7 +11,6 @@ import Error403 from "./pages/error/Error403";
 import Error500 from "./pages/error/Error500";
 import UserHome from "./pages/user/UserHome/UserHome.jsx";
 import AuthMiddleware from "./services/authMiddleware";
-import UserShowProfile from "./pages/user/ShowProfile/ShowProfile.jsx";
 import ForgotPassword from "./pages/common/ForgotPassword";
 import ResetPassword from "./pages/common/ResetPassword";
 import UpdateProfile from "./pages/user/UpdateProfile/UpdateProfile.jsx";

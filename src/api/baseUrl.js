@@ -1,4 +1,4 @@
-import env from "react-dotenv";
+// import env from "react-dotenv";
 
 export const baseUrl = process.env.REACT_APP_API_URL_LIVE;
 
