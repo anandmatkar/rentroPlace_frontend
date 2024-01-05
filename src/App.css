@@ -1,0 +1,11 @@
+/* @font-face {
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: normal;
+    src: url("./font-family/Poppins-Medium.ttf") format("ttf"); 
+  } */
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+/* Template CSS */

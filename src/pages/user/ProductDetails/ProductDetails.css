@@ -1,0 +1,91 @@
+.product_details .carousel-indicators {
+  display: none;
+}
+label.inStock {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #82d175;
+  padding: 1px 9px;
+  border-radius: 3px;
+  background-color: rgba(130, 209, 117, 0.2);
+}
+.product_price {
+  font-size: 24px;
+  font-weight: 600;
+}
+.tabsContent .nav.nav-tabs {
+  justify-content: center;
+}
+.tabsContent .nav-link {
+  display: block;
+  position: relative;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  padding: 0 25px 18px;
+  text-transform: capitalize;
+  color: #999999;
+  border: 0px !important;
+}
+.tabsContent .nav-link.active {
+  border-bottom: 4px solid #014dbcc2 !important;
+}
+.row {
+  margin: 0 !important;
+}
+.tabsContent .nav-tabs {
+  border: 0px;
+}
+img.reviewAvtar {
+  border-radius: 50%;
+}
+.ratingBox .rating .star-rating.star-rating-fill {
+  color: #c6d371;
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+input.confirmCheckbox.form-check-input {
+  margin: 0;
+}
+.checkboxGroup.input-group span.input-group-text {
+  border: 0px;
+  background: transparent;
+  padding: 0;
+}
+button.btn.reviewBtn {
+  background-color: #014dbcc2;
+}
+img.productImage {
+  height: 350px !important;
+  object-fit: contain;
+  object-position: top;
+}
+img.img-thumbnail {
+  height: 100px !important;
+  object-fit: contain;
+  object-position: top;
+}
+.card.productCard {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.singleProductData {
+  padding: 60px;
+}
+@media only screen and (max-width: 767px) and (min-width: 300px) {
+  .d-flex.reviewNameDate {
+    display: block !important;
+  }
+  .singleProductData {
+    padding: 20px;
+  }
+  .review_date.px-3 {
+    padding: 0px !important;
+  }
+  .ratingCol.col {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 300px) {
+}

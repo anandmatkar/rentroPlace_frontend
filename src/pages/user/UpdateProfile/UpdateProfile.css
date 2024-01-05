@@ -1,0 +1,83 @@
+.UpdateProfileDetails.card{
+    /* border: 1px solid #014dbc; */
+}
+.UpdateProfileDetails.card .card-header {
+    /* border-bottom: 1px solid #014dbc; */
+    background: #014dbc;
+    background: #e1e1e2;
+    color: #000;
+    /* text-transform: uppercase; */
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'Poppins';
+}
+.updateProfileForm span.ant-input-group-addon {
+    background-color: #014dbc;
+    color: #fff;
+    border: 1px solid #014dbc;
+}
+.updateProfileForm input, .updateProfileForm span.ant-input-affix-wrapper {
+    border: 1px solid #014dbc;
+    font-family: 'Poppins';
+}
+.updateProfileForm .ant-upload-wrapper .ant-upload.ant-upload-select{
+    height: max-content ;
+    width: 100%;
+    border: 0px;
+    background-color: transparent;
+    display: block !important;
+}
+.updateProfileForm .ant-upload-wrapper .ant-upload.ant-upload-select span.ant-upload{
+    border: 0 !important;
+}
+.profileUploadBox{
+    height: 38px ;
+    width: 100%;
+    padding: 0px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 8px;
+    border: 1px solid #014dbc !important;
+    font-family: 'Poppins';
+    text-align: left;
+    justify-content: left;
+    display: flex;
+    align-items: center;
+} 
+span.material-symbols-outlined.profileUpload{
+    background-color: #014dbc;
+    color: #fff;
+    height: 38px;
+    border: 1px solid #014dbc;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    margin-right: 10px;
+}
+.updateProfileForm .ant-upload-list-item-container{
+    display: none !important;
+}
+button.SignUp_btn{
+    background-color: #014dbc;
+    color: #fff;
+}
+button.SignUp_btn:hover {
+    background-color: #014dbcc2;
+}
+center.UpdateProfileImage {
+    min-height: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.UpdateProfileDetails.card {
+    min-height: 444px;
+}
+@media  only screen and (max-width: 768px) and (min-width: 300px) {
+    .row>.colPadding{
+        padding: 0;
+    }
+}

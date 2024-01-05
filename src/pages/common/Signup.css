@@ -1,0 +1,63 @@
+.form-outline .form-control {
+  min-height: auto;
+  padding: 0.32rem 0.75rem;
+  border: 0;
+  background: transparent;
+  transition: all 0.2s linear;
+}
+.form-outline {
+  position: relative;
+  width: 100%;
+}
+.SignUp_form_card {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.signupForm input,
+.signupForm span.ant-input-affix-wrapper {
+  border: 1px solid #014dbc;
+}
+.signupForm span.ant-input-group-addon {
+  background-color: #014dbc;
+  color: #fff;
+  border: 1px solid #014dbc;
+}
+.SignUp_form_card .SignUp_btn {
+  background-color: #014dbc;
+  font-weight: bold;
+}
+.SignUp_form_card .SignUp_btn:hover {
+  background-color: #014dbcc2;
+}
+img.SignUprentLogo {
+  width: 180px;
+}
+.SignUp_form_card.card {
+  border-top: 8px solid #014dbc;
+}
+.SignUp_form_card input.form-control,
+.SignUp_form_card .input-group-text {
+  border: 1px solid #014dbc;
+}
+.SignUp_form_card .input-group-text {
+  background-color: #014dbc;
+  color: #fff;
+}
+.signupForm
+  .ant-upload-wrapper.ant-upload-picture-card-wrapper
+  .ant-upload.ant-upload-select {
+  width: fit-content;
+  border: 1px solid #014dbc;
+  padding: 10px;
+}
+.signupForm .ant-upload.ant-upload-select {
+  margin: 0;
+}
+.signupForm {
+  padding: 20px;
+}
+@media only screen and (max-width: 767px) {
+  .gradient-form.container {
+    padding: 0px 20px;
+  }
+}

@@ -1,0 +1,51 @@
+.mainContent {
+  min-height: 550px;
+}
+.categoryImages {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  place-content: center;
+  align-items: center;
+}
+.rentForm input.ant-input,
+.rentForm .ant-select-selector,
+.rentForm .ant-input-number {
+  border: 1px solid #014dbc !important;
+  padding: 0.375rem 0.75rem !important;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  height: 40px !important;
+  color: #212529;
+  appearance: none;
+  background-color: #fff;
+}
+.rentForm .ant-select-selection-search-input,
+.rentForm .ant-select-single,
+.rentForm .ant-input-number-input {
+  height: 40px !important;
+}
+.rentForm textarea.ant-input {
+  border: 1px solid #014dbc;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  appearance: none;
+  background-color: #fff;
+}
+.Rent_form_card.card {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-top: 8px solid #014dbc;
+}
+.rentForm .ant-upload.ant-upload-select {
+  border: 1px solid #014dbc !important;
+}
+.rentForm .ant-upload-list.ant-upload-list-picture-card {
+  display: flex;
+}
+img.SignUprentLogo {
+  width: 180px;
+}

@@ -1,0 +1,21 @@
+.signup-verification-form-rental.container {
+  margin-top: 7%;
+}
+
+img.otpVerirentLogo.m-auto {
+  width: 180px;
+}
+.otpVeri_form_card.card {
+  border-top: 8px solid #014dbc;
+}
+button.otpVeri_btn {
+  background-color: #014dbc;
+  font-weight: bold;
+}
+button.otpVeri_btn:hover {
+  background-color: #014dbcc2;
+}
+input.form-control.otpInputs {
+  border: 1px solid #143086;
+  text-align: center;
+}
